@@ -1,0 +1,28 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "increment number and show result",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jjarcik/arduino-rfid-esp8266.git"
+  },
+  "keywords": [
+    "rfid",
+    "arduino",
+    "esp8266"
+  ],
+  "author": "Jan Jarčík",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jjarcik/arduino-rfid-esp8266/issues"
+  },
+  "homepage": "https://github.com/jjarcik/arduino-rfid-esp8266#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
