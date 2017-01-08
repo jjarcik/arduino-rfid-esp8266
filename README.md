@@ -2,6 +2,11 @@
 
 Read data from RFID and send it to website
 
+| ESP8266 | Arduino |
+| ------- |:-------:|
+| TX | 2 |
+| RX | 3 |
+
 
 
 ### Source
