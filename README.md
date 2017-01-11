@@ -4,8 +4,18 @@ Read data from RFID and send it to website
 
 | ESP8266 | Arduino |
 | ------- |:-------:|
-| TX | 2 |
-| RX | 3 |
+| TX | 6 |
+| RX | 7 |
+
+| ESP8266 | 3.3v Reg |
+| ------- |:-------:|
+| Vin | Vout |
+| Gnd | Gnd |
+
+| Arduino | Breadboardg | RFID | 3.3V Reg |
+| ------- |:-------|:------- |:-------|
+| 5V | - |  5V | Vin
+
 
 
 
