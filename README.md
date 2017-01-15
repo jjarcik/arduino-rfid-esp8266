@@ -28,19 +28,19 @@ Read data from RFID and send it to website
 | 2       | P1-3     |
 
 
-
-
-### Source
-https://www.youtube.com/watch?v=q02f4sPghSo
-
-### AT Commands
+## Config of ESP8266
 ```
-AT+RST
-AT+CWMODE=3
-AT+CIPMUX=0
-AT+CWJAP="WIFI SSID","password"
-AT+CIPSTART="TCP","10.0.0.2",3000
-AT+CIPSEND=36
-GET /ok HTTP/1.1
-Host: 10.0.0.2
+AT+GMR
+
+AT version:0.50.0.0(Sep 18 2015 20:55:38)
+SDK version:1.4.0
+compile time:Sep 18 2015 21:46:52
+
+```
+
+## How to run server
+```
+ cd server
+ npm install
+ npm run start
 ```
