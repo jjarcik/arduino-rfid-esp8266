@@ -44,3 +44,7 @@ compile time:Sep 18 2015 21:46:52
  npm install
  npm run start
 ```
+
+open http://localhost:3000/
+open localhost:3000/ok
+open localhost:3000
