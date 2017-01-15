@@ -2,6 +2,9 @@
 
 Read data from RFID and send it to website
 
+<img src='https://raw.githubusercontent.com/jjarcik/arduino-rfid-esp8266/master/IMG_20170115_231733.jpg' width="600"/>
+
+
 |ESP8266|Arduino|
 |-------|-------|
 | RX    | 7     |
@@ -45,6 +48,6 @@ compile time:Sep 18 2015 21:46:52
  npm run start
 ```
 
-open http://localhost:3000/
-open localhost:3000/ok
-open localhost:3000
+- open http://localhost:3000/
+- open localhost:3000/ok
+- open localhost:3000
